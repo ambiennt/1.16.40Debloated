@@ -3,13 +3,13 @@
 
 
 ### Disclaimer:
-- obtaining a copy of a Minecraft for Windows app package (.appx) will NOT allow you to pirate the game. you MUST still own the game in order for it to be played outside of trial mode (identical behavior to Minecraft for Windows appxs downloaded directly from the Microsoft Store)
+- obtaining a copy of a Minecraft for Windows app package (.appx) will **NOT** allow you to pirate the game. you **MUST** still own the game in order for it to be played outside of trial mode (identical behavior to Minecraft for Windows appxs downloaded directly from the Microsoft Store)
 
 
 ### Feature List:
 - 1.14.60 loading screen logo (now HD) & white background
 - removed all Marketplace, Realms Plus advertisements, and unnecessary buttons in UI (see the *_global_variables.json* header for more details)
-- additional minor enhancements are added to the UI, like no text title/selected item shadow in HUD, added main menu panorama overlay from 1.12.1, etc
+- removed the 1.16+ background shadow in hud tooltip and title texts, and added back the text drop shadow as a replacement (like 1.14.60)
 - ported over the 1.14.60 server selection screen to the latest version (more performant, less cluttered)
 - included built-in [1.7 animations](https://mcpedl.com/java-1-7-animations/) for 1.16.0-1.16.40, with official cape support (redder armor, no extra particles subpack)
 - removed ~75mb worth of bloat by compressing aquatic and nether update music files (thanks [notshige](https://github.com/NotShige)), as well as deleting the unused HTML UI assets
@@ -18,11 +18,10 @@
 - optionally choose a patched binary to enable the 1.12.1 skin picker screen and fully disable persona and emote bloat
   
 #### Other Minor QOL Fixes
-- backported the fix for [MCPE-103016](https://bugs.mojang.com/browse/MCPE-103016) and [MCPE-46975](https://bugs.mojang.com/browse/MCPE-46975)
+- fixed [MCPE-103016](https://bugs.mojang.com/browse/MCPE-103016), [MCPE-46975](https://bugs.mojang.com/browse/MCPE-46975), and [MCPE-51982](https://bugs.mojang.com/browse/MCPE-51982)
 - removed the liquid offset when the camera is inside a liquid
 - removed the report button in the player list
 - prevented container screens from closing when the player takes damage
-- removed the 1.16+ background drop shadow in hud tooltip and title texts
 
 
 
